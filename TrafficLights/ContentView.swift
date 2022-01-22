@@ -23,6 +23,7 @@ struct ContentView: View {
             VStack {
                 CircleLight(lightColor: .red, lightOpacity: lightOpacityRed)
                 CircleLight(lightColor: .yellow, lightOpacity: lightOpacityYellow)
+                    .padding()
                 CircleLight(lightColor: .green, lightOpacity: lightOpacityGreen)
                 Spacer()
                 startButtonPressed
