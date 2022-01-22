@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var lightOpacityGreen: Double
     
     @State var buttonText = "START"
-    @State var switchCount = 0
+    @State var switchCount: Color = .red
     
     var body: some View {
         ZStack {
@@ -45,23 +45,23 @@ struct ContentView: View {
         }
     }
     
-    func switchCountСhanged(switchCount: Int) {
+    func switchCountСhanged(switchCount: Color) {
         switch switchCount {
-        case 0:
+        case .red:
             lightOpacityRed = 1
-            lightOpacityYellow = 0.5
-            lightOpacityGreen = 0.5
-            self.switchCount = 1
-        case 1:
-            lightOpacityRed = 0.5
+            lightOpacityYellow = 0.3
+            lightOpacityGreen = 0.3
+            self.switchCount = .yellow
+        case .yellow:
+            lightOpacityRed = 0.3
             lightOpacityYellow = 1
-            lightOpacityGreen = 0.5
-            self.switchCount = 2
+            lightOpacityGreen = 0.3
+            self.switchCount = .green
         default:
-            lightOpacityRed = 0.5
-            lightOpacityYellow = 0.5
+            lightOpacityRed = 0.3
+            lightOpacityYellow = 0.3
             lightOpacityGreen = 1
-            self.switchCount = 0
+            self.switchCount = .red
         }
     }
 }
@@ -69,9 +69,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(
-            lightOpacityRed: 0.5,
-            lightOpacityYellow: 0.5,
-            lightOpacityGreen: 0.5
+            lightOpacityRed: 0.3,
+            lightOpacityYellow: 0.3,
+            lightOpacityGreen: 0.3
         )
     }
 }

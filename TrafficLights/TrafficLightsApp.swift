@@ -11,7 +11,7 @@ import SwiftUI
 struct TrafficLightsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(lightOpacityRed: 0.5, lightOpacityYellow: 0.5, lightOpacityGreen: 0.5)
+            ContentView(lightOpacityRed: 0.3, lightOpacityYellow: 0.3, lightOpacityGreen: 0.3)
         }
     }
 }
