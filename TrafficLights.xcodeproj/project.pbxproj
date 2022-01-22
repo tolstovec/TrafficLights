@@ -11,6 +11,7 @@
 		97E18596279BE6A7004BC80F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E18595279BE6A7004BC80F /* ContentView.swift */; };
 		97E18598279BE6A8004BC80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E18597279BE6A8004BC80F /* Assets.xcassets */; };
 		97E1859B279BE6A8004BC80F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E1859A279BE6A8004BC80F /* Preview Assets.xcassets */; };
+		97E185A2279BE72D004BC80F /* CircleLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E185A1279BE72D004BC80F /* CircleLight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		97E18595279BE6A7004BC80F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97E18597279BE6A8004BC80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E1859A279BE6A8004BC80F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97E185A1279BE72D004BC80F /* CircleLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				97E18593279BE6A7004BC80F /* TrafficLightsApp.swift */,
 				97E18595279BE6A7004BC80F /* ContentView.swift */,
+				97E185A1279BE72D004BC80F /* CircleLight.swift */,
 				97E18597279BE6A8004BC80F /* Assets.xcassets */,
 				97E18599279BE6A8004BC80F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E18596279BE6A7004BC80F /* ContentView.swift in Sources */,
+				97E185A2279BE72D004BC80F /* CircleLight.swift in Sources */,
 				97E18594279BE6A7004BC80F /* TrafficLightsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
